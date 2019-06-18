@@ -1,0 +1,23 @@
+{
+  "name": "npm_boilerplate",
+  "version": "1.0.0",
+  "description": "Biblioteca boilerplate com as documentações necessárias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint"
+  },
+  "keywords": [
+    "boilerplate",
+    "documentation"
+  ],
+  "author": "Manná <atendimento@agenciamanna.com.br> (https://agenciamanna.com.br/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "husky": "^2.4.1"
+  }
+}
